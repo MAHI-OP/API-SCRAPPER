@@ -4,3 +4,8 @@ services:
     build: .
     environment:
       TG_BOT_TOKEN: $TG_BOT_TOKEN
+      WEBHOOK: $WEBHOOK
+      URL: $URL
+      APP_TITLE: $APP_TITLE
+      APP_SHORT_NAME: $APP_SHORT_NAME
+      APP_URL: $APP_URL
