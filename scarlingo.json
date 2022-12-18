@@ -5,15 +5,11 @@
     "repository": "https://github.com/LEGEND-AI/API-SCRAPPER",
   "stack": "container",
     "env": {
-    "TG_BOT_TOKEN": {
-      "description": "Your bot token, as a string."
+        "TG_BOT_TOKEN": {
+            "description": "ᴘʏʀᴏɢʀᴀᴍ- v1 sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ",
+            "required": true,
+            "value": ""
+        }
+
     }
-},
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
-  "stack": "heroku-20"
-}
+  }
